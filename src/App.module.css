@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todos_logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8rem;
+    color: rgb(233,217,216);
+    user-select: none;
+}

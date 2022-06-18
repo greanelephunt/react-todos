@@ -1,0 +1,47 @@
+.todos_footer__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.todos_footer__wrapper div{
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.todos_footer__left{
+    justify-self: left;
+}
+
+.todos_footer__center{
+    justify-self: center;
+    display: flex;
+}
+
+.todos_footer__right{
+    justify-self: right;
+}
+
+.todos_footer__right:hover{
+    border-bottom: 0.1rem solid rgb(233,217,216);
+    cursor: pointer;
+}
+
+.todos_footer__center div{
+    padding: 0.4rem 0.7rem;
+}
+
+.todos_footer__center div:hover{
+    outline: 0.1rem solid rgb(236, 232, 232);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.current{
+    outline: 0.1rem solid rgb(233,217,216);
+    border-radius: 0.4rem;
+}

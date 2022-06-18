@@ -1,0 +1,24 @@
+.todos_container {
+    background-color: white;
+    box-shadow: 0 0.2rem 0.6rem 0 rgba(0,0,0, 0.3);
+    border-bottom: solid 0.1rem rgb(233,233,233);
+    width: 50rem;
+    z-index: 2;
+}
+
+.middle_sheet{
+    background-color: white;
+    box-shadow: 0 0.2rem 0.6rem 0 rgba(0,0,0, 0.3);
+    border-bottom: solid 0.1rem rgb(233,233,233);
+    width: 49rem;
+    height: 0.5rem;
+    z-index: 1;
+}
+
+.bottom_sheet{
+    background-color: white;
+    box-shadow: 0 0.2rem 0.6rem 0 rgba(0,0,0, 0.3);
+    border-bottom: solid 0.1rem rgb(233,233,233);
+    width: 48rem;
+    height: 0.5rem;
+}
